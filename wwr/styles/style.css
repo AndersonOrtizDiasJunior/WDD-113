@@ -201,6 +201,7 @@ footer .social img {
         border: 10px solid #ffb703;
         width: 100%;
         box-shadow: 5px 5px 10px #6f7364;
+        transition: transform .5s;
     }
 .card-img:hover {
         opacity: .6;
