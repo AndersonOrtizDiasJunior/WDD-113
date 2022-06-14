@@ -207,6 +207,34 @@ footer .social img {
         opacity: .6;
         transform: scale(1.1);
     }
+
+.faqText {
+    background-color: #ffb703;
+    color: white;
+    font-size: 1.1em;
+    font-style: bold;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 3%;
+}
+
+.faqImage {
+    float: right;
+    width: 35%;
+     margin-top: 8%;
+}
+.faqTitle {
+    text-align: center;
+    color: #023047;
+}
+.question {
+    font-size: 1.2em;
+    margin-block-end: 0;
+    color:#023047;
+}
+
 .mountains {
     width: 100%;
     grid-column: 2/7;
@@ -253,6 +281,12 @@ footer .social img {
             width: 80%;
             display: block;
             margin: 0 auto;
+        }
+        .faqImage {
+            width: 85%;
+            margin-left: 7.5%;
+            margin-right: auto;
+            float: none;
         }
         footer {
             margin-top: 25px;
