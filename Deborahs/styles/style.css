@@ -47,6 +47,9 @@ a {
     text-decoration: none;
     color: var(--headline-color-on-white);
 }
+a:hover {
+    color: var(--secondary-color);
+}
 .logoDiv {
    min-width: 150px;
    height: 10%;
