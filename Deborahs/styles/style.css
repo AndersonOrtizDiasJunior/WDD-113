@@ -201,6 +201,7 @@ hr {
         display: none;
       }
       .mobileDiv {
+        font-family: var(--heading-font);
         margin-top: 0%;
         padding-top: 0%;
         display: flex;
