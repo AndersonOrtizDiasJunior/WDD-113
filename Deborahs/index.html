@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script>
+        function openMenu() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {       
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
 <head>
     <link rel="stylesheet" href="styles/style.css">
     <meta charset="UTF-8">
@@ -9,8 +19,21 @@
     
 </head>
 <body>
+    <div class="mobileDiv">
+        <div class="topnav">
+          <a href="javascript:void(0);"  onclick="openMenu()"class="active"><img src="styles/images/logo_mobile_nav.png"></a>
+          <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="patisserie.html">Patisserie</a>
+            <a href="ourstory.html">Our Story</a>
+          </div>
+          <!-- <a href="javascript:void(0);" class="icon" onclick="openMenu()"> -->
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    </div>
 <div class="allBlocks">
-    <div class="block1">  
+    <div id="block1">  
         <header tabindex="-1">
             <div class="logoDiv">
               <a href="index.html">
@@ -39,7 +62,7 @@
           </div>
       </header>
     </div>
-    <div class="block2">
+    <div id="block2">
     <div id="homeBlock2Up">
         <img src="styles/images/sweets_1.png">
         <div>
