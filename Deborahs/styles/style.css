@@ -37,7 +37,7 @@ footer {
     height: 100%;
     width: 15%;
     box-sizing: border-box;
-    margin: none;
+    margin: 0px;
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
 }
@@ -206,18 +206,17 @@ hr {
   width: 100%;
   display: grid;
   grid-template-columns: 2fr 4fr;
-  grid-template-rows: 1fr fit-content();
+  grid-template-rows: 1fr fit-content(100%);
   background-color: var(--accent1-color);
   color: var(--paragraph-color-on-color);
   font-size: 1.5em;
   text-align: center;
   border-radius: 15px;
-  min-height: 300;
 }
 
 .contentBlock img {
   grid-row: 2/3;
-  grid-template-columns: 1/2;
+  grid-column: 1/2;
   width: 90%;
   margin-left: 5%;
   border-radius: 15px;
