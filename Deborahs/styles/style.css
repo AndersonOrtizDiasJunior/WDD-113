@@ -25,7 +25,12 @@
 body {
   margin: 0;
   padding: 0;
-}
+  }
+  .fixed {
+    max-height: 100%;
+    overflow: hidden;
+    padding-right: 1%;
+  }
 footer {
   margin: 0;
   padding: 0;
@@ -107,8 +112,6 @@ hr {
 }
 #block2 {
     padding-left: 17%;
-    /* margin: 0 0 0 25%;
-    width: 75%; */
     height: 100vh;
 }
 
@@ -125,7 +128,8 @@ hr {
 #homeBlock2Up {
     display: flex;
     padding-right: 1%;
-    padding-bottom: 1%;
+    padding-top: .5%;
+    padding-bottom: .5%;
     width: 100%;
     height: 50%;
 }
@@ -361,6 +365,12 @@ hr {
 
   .homeBlock3Mobile {
     display: inline;
+  }
+
+  .fixed {
+    max-height: none;
+    overflow: inherit;
+    padding-right: 0%;
   }
 }
 
