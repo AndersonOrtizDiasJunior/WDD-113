@@ -241,6 +241,7 @@ hr {
   width: 100%;
   text-align: center;
   margin-top: 3%;
+  font-family: var(--paragraph-font);
 }
 
 .requestDiv p {
