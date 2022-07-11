@@ -264,6 +264,14 @@ hr {
     height: auto;
   }
 
+  #homeBlock2Up p {
+    margin-block-start: 0%;
+  }
+
+  #homeBlock2Up h3 {
+    margin-block-end: 0%;
+  }
+
   #Block2Title h2{
     font-size: 2.3em;
     top: 50%;
