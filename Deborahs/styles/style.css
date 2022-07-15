@@ -141,7 +141,8 @@ hr {
     height: 100%;
 }
 
-#homeBlock2Up div {
+.homeBlock2UpTextContainer {
+    position: relative;
     background-color: var(--accent1-color);
     color: var(--paragraph-color-on-color);
     width: 50%;
@@ -149,6 +150,11 @@ hr {
     text-align: center;
     align-items: center;
     font-size: 1.3em;
+}
+
+.homeBlock2UpText {
+  position: absolute;
+  top: 25%;
 }
 
 #homeBlock2Down {
@@ -381,6 +387,11 @@ hr {
     max-height: none;
     overflow: inherit;
     padding-right: 0%;
+  }
+
+  .homeBlock2UpText {
+    position: relative;
+    top: 0%;
   }
 }
 
