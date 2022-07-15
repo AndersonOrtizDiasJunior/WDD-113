@@ -374,6 +374,7 @@ hr {
   .contentBlock {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr fit-content(100%) fit-content(100%);
+    padding-right: 0%;
   }
 
   .contentBlock img {
@@ -412,6 +413,7 @@ hr {
     overflow: inherit;
     padding-right: 0%;
   }
+
 
   .homeBlock2UpText {
     position: relative;
