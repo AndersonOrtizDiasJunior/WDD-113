@@ -274,7 +274,7 @@ hr {
   }
   #homeBlock2Up, #Block2Title {
     padding-top: 73px;
-    padding-left: 0%;
+    padding-left: 0%    ;
     flex-direction: column;
     height: auto;
   }
@@ -295,6 +295,7 @@ hr {
 
   #homeBlock2Up img, #homeBlock2Up div{
     width: 100%;
+    padding-right: 0%;
   }
 
   #homeBlock2Up img {
@@ -302,6 +303,11 @@ hr {
   }
   .topnav img {
     height: 40px;
+    margin-left: calc(40% - 15.65px);
+  }
+  .topnav i {
+    padding-top: 11.5px;
+    width: 10%;
   }
   #block1 {
     display: none;
@@ -319,7 +325,7 @@ hr {
   }
   
   .topnav {
-    text-align: center;
+    text-align: left;
     width: 100%;
     overflow: hidden;
     background-color: var(--nav-background-color);
@@ -327,6 +333,12 @@ hr {
     border-left: 0px;
     position: fixed;
     padding: 0;
+  }
+
+  .topNavIcons {
+    display: flex;
+    /* grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr; */
   }
   
   .topnav #myLinks {
