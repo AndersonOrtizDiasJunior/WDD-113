@@ -90,6 +90,7 @@ a:hover {
     padding-bottom: 10%;
 }
 h1, h2, h3, h4, h5, h6 {
+    margin-block-end: 0;
     font-family: var(--heading-font);
     color: var(--headline-color-on-color);
   }
@@ -155,6 +156,10 @@ hr {
 .homeBlock2UpText {
   position: absolute;
   top: 25%;
+}
+
+.homeBlock2UpText p {
+  margin-block-start: 0;
 }
 
 #homeBlock2Down {
